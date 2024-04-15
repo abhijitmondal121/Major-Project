@@ -536,7 +536,31 @@ header{
 .text h1{
     font-size: 2rem;
 }
+/* .form-container{
+    width: 220px;
+    margin: 0 10px;
+}*/
+.form-container form{
+    bottom: 0.2rem;
+    left: 0;
+} 
+section{
+    padding: 50 20px;
+}
 .services-container{
 grid-template-columns: repeat(auto-fit,minmax(254px,auto));
 }
+}
+@media (max-width:300px){
+    .form-container{
+        width: 220px;
+        margin: 0 10px;
+    }
+    .form-container form{
+        bottom: 0.2rem;
+        left: 0;
+    }
+    .form-container input{
+        width: 190px;
+    }
 }
